@@ -7,7 +7,7 @@ pepe xs =
 main::IO()
 main=do 
     putStrLn"ingrese un numerito"
-    b <- getline 
+    b <- getLine 
 
     let a = map read (words b) :: [Int]
     putStrLn ("resultado "++ show (pepe a))
